@@ -8,4 +8,9 @@ public class ButtonFunction : MonoBehaviour
     {
         Debug.Log("BTN_FuntionA");
     }
+
+    public void BTN_FunctionB()
+    {
+        Debug.Log("BTN_FunctionB");
+    }
 }
