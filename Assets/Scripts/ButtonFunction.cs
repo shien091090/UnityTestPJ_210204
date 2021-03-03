@@ -6,6 +6,16 @@ public class ButtonFunction : MonoBehaviour
 {
     public void BTN_FuntionA()
     {
-        Debug.Log("BTN_FuntionA");
+        int v = RandomValue();
+        Debug.Log("BTN_FuntionA : " + v.ToString());
+    }
+
+    public int RandomValue()
+    {
+        int _result = 0;
+
+        _result = Random.Range(0, 100);
+
+        return _result;
     }
 }
