@@ -18,4 +18,9 @@ public class ButtonFunction : MonoBehaviour
 
         return _result;
     }
+
+    public void BTN_FunctionB()
+    {
+        Debug.Log("BTN_FunctionB");
+    }
 }
