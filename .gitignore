@@ -15,3 +15,7 @@
  
 # need include the meta of file
 !*.*.meta
+.vs/Test_210204_GitV2/v16/Server/sqlite3/db.lock
+.vs/Test_210204_GitV2/v16/Server/sqlite3/storage.ide
+.vs/Test_210204_GitV2/v16/Server/sqlite3/storage.ide-shm
+.vs/Test_210204_GitV2/v16/Server/sqlite3/storage.ide-wal
