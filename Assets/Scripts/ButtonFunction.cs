@@ -23,4 +23,10 @@ public class ButtonFunction : MonoBehaviour
     {
         Debug.Log("BTN_FunctionB");
     }
+
+    public void BTN_FunctionC()
+    {
+        int v = 100;
+        Debug.Log("BTN_FunctionC = " + v.ToString());
+    }
 }
