@@ -23,4 +23,9 @@ public class ButtonFunction : MonoBehaviour
     {
         Debug.Log("BTN_FunctionB");
     }
+
+    public void BTN_FunctionC()
+    {
+        Debug.Log("BTN_FunctionC");
+    }
 }
