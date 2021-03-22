@@ -7,13 +7,18 @@ public class PrefabHolder : MonoBehaviour
 {
     public const string PREFAB_NAME_PREFIX = "Prefab";
 
-    public GameObject prefab1;
-    public GameObject prefab2;
-    public GameObject prefab3;
-    public GameObject prefab4;
-    public GameObject prefab5;
-    public GameObject prefab6;
-    public GameObject prefab7;
+    public GameObject[] prefabArr;
+    //public GameObject prefab2;
+    //public GameObject prefab3;
+    //public GameObject prefab4;
+    //public GameObject prefab5;
+    //public GameObject prefab6;
+    //public GameObject prefab7;
+    //public GameObject prefab8;
+    //public GameObject prefab9;
+    //public GameObject prefab10;
+    //public GameObject prefab11;
+    //public GameObject prefab12;
 
     private Dictionary<string, GameObject> goTable;
 
